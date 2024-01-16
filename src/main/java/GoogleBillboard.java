@@ -9,7 +9,7 @@ public void setup()
     dNum = Double.parseDouble(digits);
     i++;
   }
-  System.out.println(digits.substring(0, 10));
+  return(digits.substring(0, 10));
 }
 public boolean isPrime(double num) {
   if (num < 2) {
