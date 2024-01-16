@@ -14,7 +14,7 @@ public class GoogleBillboard {
   System.out.println(digits.substring(0, 10));
     }
 
-    public boolean isPrime(double num) {
+    public static boolean isPrime(double num) {
       if (num < 2) {
     return false;
   }
