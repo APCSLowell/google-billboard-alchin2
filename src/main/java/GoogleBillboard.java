@@ -4,11 +4,14 @@ public class GoogleBillboard {
 
    public static void main(final String[] args) {
       int i = 0;
+       double val;
   String digits = e.substring(2, 12);
   double dNum = Double.parseDouble(digits);
   while (isPrime(dNum) == false) {
     digits = e.substring(2+i, 12+i);
     dNum = Double.parseDouble(digits);
+
+    val = Double.parseDouble(dNum);
     i++;
   }
   System.out.println(digits.substring(0, 10));
