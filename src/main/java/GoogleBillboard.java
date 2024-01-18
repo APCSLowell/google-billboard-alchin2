@@ -4,7 +4,6 @@ public class GoogleBillboard {
 
    public static void main(final String[] args) {
       int i = 0;
-       double val;
   String digits = e.substring(2, 12);
   double dNum = Double.parseDouble(digits);
   while (isPrime(dNum) == false) {
@@ -14,7 +13,6 @@ public class GoogleBillboard {
     
     i++;
   }
-    val = Double.parseDouble(dNum);
   System.out.println(val);
     }
 
