@@ -11,10 +11,11 @@ public class GoogleBillboard {
     digits = e.substring(2+i, 12+i);
     dNum = Double.parseDouble(digits);
 
-    val = Double.parseDouble(dNum);
+    
     i++;
   }
-  System.out.println(digits.substring(0, 10));
+    val = Double.parseDouble(dNum);
+  System.out.println(val);
     }
 
     public static boolean isPrime(double num) {
